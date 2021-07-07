@@ -2,7 +2,7 @@
 
 An app built using Express.js that serves static pages and also has a post routing.
 
-## Motivationcld
+## Motivation
 
 My first Express / node.js project.
 
