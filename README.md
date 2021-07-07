@@ -2,7 +2,7 @@
 
 An app built using Express.js that serves static pages and also has a post routing.
 
-## Motivation
+## Motivationcld
 
 My first Express / node.js project.
 
@@ -38,12 +38,9 @@ npm install npm@latest -g
    ```
 3. To run the server, make sure you are in the root directory then
    ```
-   node app.js
+   node app.js  **or**
+   npm run start
    ```
-
-```
-
-```
 
 ## Screenshots
 
