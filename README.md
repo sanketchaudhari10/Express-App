@@ -38,7 +38,8 @@ npm install npm@latest -g
    ```
 3. To run the server, make sure you are in the root directory then
    ```
-   node app.js  **or**
+   node app.js
+   or
    npm run start
    ```
 
