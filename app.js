@@ -20,19 +20,19 @@ app.get("/" || "/index.html" || "/index" || "home", (req, res) => {
 });
 app.get("/about" || "/about.html", (req, res) => {
   res.statusCode = 200;
-  res.sendFile(path.join(__dirname, "static/index.html"));
+  res.sendFile(path.join(__dirname, "static/about.html"));
 });
 app.get("/contact" || "/contact.html", (req, res) => {
   res.statusCode = 200;
-  res.sendFile(path.join(__dirname, "static/index.html"));
+  res.sendFile(path.join(__dirname, "static/contact.html"));
 });
 app.get("/plan" || "/plan.html", (req, res) => {
   res.statusCode = 200;
-  res.sendFile(path.join(__dirname, "static/index.html"));
+  res.sendFile(path.join(__dirname, "static/plan.html"));
 });
 app.get("/service" || "/service.html", (req, res) => {
   res.statusCode = 200;
-  res.sendFile(path.join(__dirname, "static/index.html"));
+  res.sendFile(path.join(__dirname, "static/service.html"));
 });
 
 app.get("*", function (req, res) {
